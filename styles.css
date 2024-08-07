@@ -109,7 +109,7 @@ ul{
     border: 5px solid rgb(147, 147, 243);
     width: 150px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .image-item > p{
@@ -137,4 +137,30 @@ ul{
     font-weight: bold;
     text-align: end;
     font-size: 30px;
+}
+
+.footer{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 150px;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.larger-p{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.footer > button{
+    color: #f9faf8;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 8px;
+    box-shadow: none;
+    font-size: 20px;
 }
