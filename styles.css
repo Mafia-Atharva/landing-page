@@ -81,3 +81,60 @@ ul{
     border: none;
     font-size: 20px;
 }
+
+.section2 > h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 160px;
+}
+
+.image-box{
+    border: 5px solid rgb(147, 147, 243);
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.image-item > p{
+    color: #1f2937;
+    text-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.quote-section{
+    background-color:#e5e7eb ;
+    padding: 150px 230px;
+}
+
+.quote-section > h3{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style:italic;
+}
+
+.quote-section > p{
+    color: #1f2937;
+    font-weight: bold;
+    text-align: end;
+    font-size: 30px;
+}
